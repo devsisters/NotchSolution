@@ -431,17 +431,21 @@ namespace E7.NotchSolution.Editor
                             //There is no problem on closing prefab stage, no need to restore the outer mockup.
                         };
 
+                        /*
                         EditorSceneManager.sceneOpening += (a, b) =>
                         {
                             DebugTransitions($"Scene opening {a} {b}");
                             DestroyHiddenCanvas();
                         };
+                        */
 
+                        /*
                         EditorSceneManager.sceneOpened += (a, b) =>
                         {
                             DebugTransitions($"Scene opened {a} {b}");
                             UpdateAllMockups();
                         };
+                        */
 
                         void PlayModeStateChangeAction(PlayModeStateChange state)
                         {
